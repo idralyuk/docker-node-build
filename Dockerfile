@@ -1,4 +1,4 @@
-FROM node:8.9
+FROM node:8.9.0
 
 RUN curl -fsSL get.docker.com |sh && \
   apt-get install -y python-dev python-yaml python-pip && \
